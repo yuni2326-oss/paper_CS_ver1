@@ -1,0 +1,19 @@
+arm,mode,iters,reps,seconds_per_attempt,seconds_min,seconds_max,spread_rel,measured
+a_prime_projection_diagonal,1,4000,3,40.229763705981895,39.26835126010701,43.81383442715742,0.11298806526110725,directly at n_seeds = 1 (no batching conversion)
+a_prime_projection_diagonal,2,4000,3,75.18481463799253,74.70160853001289,76.33093653107062,0.02167097184322104,directly at n_seeds = 1 (no batching conversion)
+a_prime_projection_diagonal,3,4000,3,118.2661163629964,108.42910863202997,118.30577705497853,0.08351224109392352,directly at n_seeds = 1 (no batching conversion)
+b_projection_exact,1,4000,3,40.33271486591548,35.2993597520981,44.70162019599229,0.23311746990381474,directly at n_seeds = 1 (no batching conversion)
+b_projection_exact,2,4000,3,77.02620036900043,75.16075883293524,99.16630550194532,0.3116543014456055,directly at n_seeds = 1 (no batching conversion)
+b_projection_exact,3,4000,3,127.01823012600653,103.49465463496745,139.51297580613755,0.2835681235318636,directly at n_seeds = 1 (no batching conversion)
+c_curriculum,1,4000,3,37.535870822146535,28.404137970181182,42.94780041789636,0.38746037135055017,directly at n_seeds = 1 (no batching conversion)
+c_curriculum,2,4000,3,86.15111762401648,81.39969092793763,93.40816537081264,0.13938849284907467,directly at n_seeds = 1 (no batching conversion)
+c_curriculum,3,4000,3,123.04701621388085,119.42534160707146,130.07674276316538,0.08656366878152993,directly at n_seeds = 1 (no batching conversion)
+d_neural_basis_galerkin,1,4000,3,36.28245244384743,27.26078342809342,38.91728300298564,0.32127099437207046,directly at n_seeds = 1 (no batching conversion)
+d_neural_basis_galerkin,2,4000,3,36.28245244384743,27.26078342809342,38.91728300298564,0.32127099437207046,directly at n_seeds = 1 (no batching conversion)
+d_neural_basis_galerkin,3,4000,3,36.28245244384743,27.26078342809342,38.91728300298564,0.32127099437207046,directly at n_seeds = 1 (no batching conversion)
+e_simultaneous_subspace,1,4000,3,93.17520887893625,88.80063884099945,109.81113684200682,0.2254945092562827,directly at n_seeds = 1 (no batching conversion)
+e_simultaneous_subspace,2,4000,3,93.17520887893625,88.80063884099945,109.81113684200682,0.2254945092562827,directly at n_seeds = 1 (no batching conversion)
+e_simultaneous_subspace,3,4000,3,93.17520887893625,88.80063884099945,109.81113684200682,0.2254945092562827,directly at n_seeds = 1 (no batching conversion)
+p4_neural_2d[exact projection],1,4000,3,91.3841758579947,85.3140035320539,110.99491182505153,0.28102139185348846,"directly at n_seeds = 1 (no batching conversion); P4, two dimensions"
+p4_neural_2d[exact projection],2,4000,3,119.91404711105861,110.7805797487963,122.90242504095659,0.1010877839935935,"directly at n_seeds = 1 (no batching conversion); P4, two dimensions"
+p4_neural_2d[exact projection],3,4000,3,97.23963121394627,89.6395921211224,130.84729347587563,0.4237747597385288,"directly at n_seeds = 1 (no batching conversion); P4, two dimensions"

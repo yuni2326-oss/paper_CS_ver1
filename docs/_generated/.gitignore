@@ -1,0 +1,4 @@
+# 생성 산출물 — git 제외(바이너리). 소스 md는 docs/*.md, 생성기는 fig_gen.py/md2docx.py(커밋됨).
+*.docx
+*.png
+*.pdf
